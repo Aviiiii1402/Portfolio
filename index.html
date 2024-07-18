@@ -38,7 +38,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="profilepic.jpg"/> 
+        <img src="profilepic.jpg"/>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -94,7 +94,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>Intern at vivo <br/>Data Analyst</p>
+              <p>2+ years <br />Data Analyst</p>
             </div>
             <div class="details-container">
               <img
@@ -103,7 +103,7 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.TECH in Computer Science<br/> </p>
+              <p>BTECH in Computer Science<br/> </p>
             </div>
           </div>
           <div class="text-container">
@@ -323,7 +323,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Global Electronics Retailer Dashboard</h2>
+            <h3 class="experience-sub-title project-title">Global Electronics Retailer Dashboard</h3>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -347,7 +347,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Udemy Dashboard</h2>
+            <h4 class="experience-sub-title project-title">Udemy Dashboard</h4>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -376,7 +376,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Global Superstore Dashboard</h2>
+            <h5 class="experience-sub-title project-title">Global Superstore Dashboard</h5>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -400,7 +400,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Upl vs Act Graph for vivo</h2>
+            <h6 class="experience-sub-title project-title">Upl vs Act Graph for vivo</h6>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -410,7 +410,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('ploadingVSactivation.pdf')"
+                onclick="window.open('uploadingVSactivation.pdf')"
               >
               Download pdf
               </button>
@@ -438,22 +438,127 @@
               >
               Download pdf
               </button>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
-      <img
-      src="arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="scrollTocontact()"
-    />
     </section>
 
- 
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .section__text__p1 {
+                text-align: center;
+                font-size: 20px;
+            }
+            .title {
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            .projects-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 10px;
+                max-width: 1250px;
+                margin: 0 auto 20px;
+            }
+            .projects-img {
+                max-width: 50%;
+                height: 500px;
+                border-radius: 10px;
+                margin-right: 70px;
+            }
+            .projects-details {
+                flex: 1;
+            }
+            .projects-title {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .projects-description {
+                text-align: justify;
+                margin-bottom: 20px;
+            }
+          
+        </style>
+        <title>Data Science Projects</title>
+    </head>
+    <body>
     
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Data Science Projects</h1> <br><br><br>
+        <div class="projects-container">
+            <img src="mythicvision.png" alt="Mythic Vision" class="projects-img">
+            <div class="projects-details">
+                <h2 class="projects-title">Mythic Vision</h2>
+                <p class="projects-description">
+                    Indian mythology is a treasure trove of ancient stories, intricate symbols, and divine tales. It has deeply influenced India's culture and spirituality, evident in its sculptures, artworks, and artifacts. However, this rich heritage hasn't seamlessly blended with modern technology. Our developed model, "Mythic Vision" steps in to bridge this gap. It aims to reveal the hidden stories in India's cultural artifacts, revolutionizing how people interact with Indian mythology during cultural tourism experiences. <br> Addressing challenges is central to the project's development. The absence of a comprehensive dataset of Indian deities poses a major hurdle. Selecting the most suitable deep learning model and deciding on prioritizing accuracy or a weighted decision-based approach present critical challenges. The application, MythicVision, aspires to blend Indian mythology with modern technology to enrich cultural tourism experiences. The project's approach involves creating unique datasets, selecting appropriate deep learning models, addressing accuracy challenges, and concluding with an intuitive application.
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('Mythic_Vision.pdf')">Download pdf</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="projects-container">
+          <img src="tomatoes.png" alt="Movies Rating Prediction" class="projects-img">
+          <div class="projects-details">
+              <h3 class="projects-title">Rotten Tomatoes Movies Rating Prediction</h3>
+              <p class="projects-description">
+                In tackling the Rotten Tomatoes Movies Rating Prediction project, my goal was to construct a robust classification algorithm capable of accurately predicting whether a movie is classified as 'Rotten', 'Fresh', or 'Certified-Fresh' based on data from the Rotten Tomatoes platform. This initiative stemmed from a data science assignment for a Meta (Facebook) position, where I leveraged comprehensive movie details and critic reviews as primary inputs for the model.<br>
+                The project commenced with extensive data exploration to understand the nuances of movie ratings, followed by rigorous feature engineering to extract pertinent information from the dataset. Utilizing various machine learning techniques, I optimized the model's performance while adhering to practical implementation constraints and a defined timeline. The final solution was crafted to not only achieve high prediction accuracy but also ensure scalability and reproducibility in real-world applications.
+              </p>
+              <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                  <button class="btn btn-color-2 project-btn" onclick="window.open('Mythic_Vision.pdf')">Download pdf</button>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="projects-container">
+        <img src="churn.png" alt="Churn Prediction" class="projects-img">
+        <div class="projects-details">
+            <h4 class="projects-title">Customer Churn Prediction</h4>
+            <p class="projects-description">
+              The challenge of customer churn prediction in the telecom industry required a multifaceted approach aimed at retaining valuable customers. For this Sony Research data science assignment, I focused on developing a predictive model capable of identifying customers at risk of churning based on a comprehensive dataset encompassing demographic information and service usage metrics. <br>
+              The project involved meticulous data preprocessing to handle missing values and ensure data integrity, followed by exploratory data analysis to uncover meaningful insights into customer behavior. Leveraging advanced machine learning algorithms, I constructed a predictive model optimized for churn prediction, evaluating its performance using appropriate metrics tailored to business objectives.<br>
+              Additionally, I addressed practical considerations such as model deployment and scalability, ensuring the solution aligned with operational constraints and contributed to enhancing customer retention strategies effectively. This approach underscored my commitment to delivering actionable insights through rigorous data analysis and machine learning techniques.
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('Mythic_Vision.pdf')">Download pdf</button>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+    
+    </body>
+    </html>
+        
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br><br><br> <br> <br><br>
+
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
